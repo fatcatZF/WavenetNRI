@@ -43,7 +43,7 @@ parser.add_argument("--encoder", type=str, default="wavenet",
                     help="Type of encoder model.")
 parser.add_argument("--no-factor", action="store_true", default=False,
                     help="Disables factor graph model.")
-parser.add_argument("--suffix", type=str, default="ETH",
+parser.add_argument("--suffix", type=str, default="zara01",
                     help="Suffix for training data ")
 parser.add_argument("--split", type=str, default="split00",
                     help="Split of the dataset.")

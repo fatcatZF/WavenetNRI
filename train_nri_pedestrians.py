@@ -48,8 +48,8 @@ parser.add_argument('--no-factor', action='store_true', default=False,
                     help='Disables factor graph model.')
 parser.add_argument("--use-motion", action="store_true", default=False,
                     help="use motion")
-parser.add_argument('--suffix', type=str, default='ETH',
-                    help="ETH or Hotel")
+parser.add_argument('--suffix', type=str, default='zara01',
+                    help="data sets.")
 parser.add_argument("--split", type=str, default="split00",
                     help="Splits of dataset.")
 
