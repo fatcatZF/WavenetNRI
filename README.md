@@ -1,4 +1,4 @@
 # WavenetNRI
-Extension the Work of Kipf et al(2018) for Group Detection
+We extended the Neural Relational Inference for Group Detection from spatio-temporal data.
 
 ## Experiments
