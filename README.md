@@ -6,7 +6,7 @@
 ## Data sets
 We used six spring simulation data sets and five pedestrian data sets in our experiments.
 ### Spring simulation data sets
-
+We extended the spring simulation data sets of NRI [[2]](#1)
 ### Pedestrian data sets
 
 ## Run experiments
