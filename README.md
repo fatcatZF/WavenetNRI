@@ -4,3 +4,5 @@
 
 
 ## References
+<a id="1">[1]</a>
+Kipf, T., Fetaya, E., Wang, K. C., Welling, M., & Zemel, R. (2018, July). Neural relational inference for interacting systems. In International Conference on Machine Learning (pp. 2688-2697). PMLR.
