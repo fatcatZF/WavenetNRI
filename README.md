@@ -20,7 +20,7 @@ To train the models on the spring simulation data sets, run
 ```
 python train_nri_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion --gweight-auto --suffix=_static_10_3_5
 ```
-**Arguments**: ```--no-seed```: no specific seeds (use random seeds).<br> 
+**Arguments:** ```--no-seed```: no specific seeds (use random seeds).<br> 
 ```--encoder```, ```--use-motion```: types of encoder.<br> 
         Use original NRI encoder: ```--encoder=cnn```. use WavenetNRI encoder: ```--encoder=wavenetsym --use-motion```.<br>
 ```--suffix```: suffix of spring simulation data sets. Format: ```_static_n_a_B```. n: the number of particles. a: the number of value a in the thesis. B=100b, where b is the value of b in the thesis.<br>
@@ -29,8 +29,12 @@ python train_nri_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion 
 ### Pedestrian data sets
 To train the models on the pedestrian data sets, run
 ```
-python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motion --group-weight=2.45 --ng-weight=0.63 --suffix=zara01 --split=split00
+python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=zara01 --split=split00 --group-weight=2.45 --ng-weight=0.63 
 ```
+**Arguments:** ```--suffix```: name of pedestrian data sets (*zara01*, *zara02*, *students03*, *ETH*, *Hotel*).<br>
+               ```--split```: type of training, validation and test splits (split00, split01, split10, split11, split20, split21).<br>
+               ```--group-weight```, ```--ng-weight```: weights of weighted cross-entropy loss.
+               
 
 ## References
 <a id="1">[1]</a>
