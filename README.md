@@ -16,8 +16,15 @@ We used five pedestrian data sets, namely *zara01*, *zara02*, *students03*, *ETH
 
 ## Run experiments
 ### Spring simulation data sets
+To train the models on the spring simulation data sets, run
+```
+python train_nri_su.py --no-seed --epochs=200 --gweight-auto --suffix=_static_10_3_5
+```
 ### Pedestrian data sets
-
+To train the models on the pedestrian data sets, run
+```
+python train_nri_pede_su --no-seed --epochs=200 --group-weight=2.45 --ng-weight=0.63 --suffix=zara01 --split=split00
+```
 
 ## References
 <a id="1">[1]</a>
