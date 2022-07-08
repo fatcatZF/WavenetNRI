@@ -23,7 +23,8 @@ python train_nri_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion 
 **Arguments**: ```--no-seed```: no specific seeds (use random seeds).<br> 
 ```--encoder```, ```--use-motion```: types of encoder.<br> 
         Use original NRI encoder: ```--encoder=cnn```. use WavenetNRI encoder: ```--encoder=wavenetsym --use-motion```.<br>
-```--suffix```: suffix of spring simulation data sets. Format: ```_static_n_a_B```. n: the number of particles. a: the number of value a in the thesis. B=100b, where b is the value of b in the thesis.
+```--suffix```: suffix of spring simulation data sets. Format: ```_static_n_a_B```. n: the number of particles. a: the number of value a in the thesis. B=100b, where b is the value of b in the thesis.<br>
+```--gweigh-auto```: automately compute the weights of the weighted cross-entropy loss function based on the training data sets.
 
 ### Pedestrian data sets
 To train the models on the pedestrian data sets, run
