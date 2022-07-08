@@ -20,7 +20,7 @@ To train the models on the spring simulation data sets, run
 ```
 python train_nri_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion --gweight-auto --suffix=_static_10_3_5
 ```
-**Arguments**: ```--no-seed```: no specific seeds (use random seeds). 
+**Arguments**: ```--no-seed```: no specific seeds (use random seeds).<br> 
 ```--encoder```, ```--use-motion```: types of encoder.
 
 ### Pedestrian data sets
