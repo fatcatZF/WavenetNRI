@@ -35,10 +35,13 @@ python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motio
                ```--split```: type of training, validation and test splits (split00, split01, split10, split11, split20, split21).<br>
                ```--group-weight```, ```--ng-weight```: weights of weighted cross-entropy loss.<br>
                
+               
                | Name     | Character |
                | ---      | ---       |
                | Backtick | `         |
                | Pipe     | \|        |
+               
+               
 
 ## References
 <a id="1">[1]</a>
