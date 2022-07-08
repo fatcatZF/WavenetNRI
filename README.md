@@ -36,11 +36,6 @@ python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motio
                ```--group-weight```, ```--ng-weight```: weights of weighted cross-entropy loss.<br>
                
                
-               | Name     | Character |
-               | ---      | ---       |
-               | Backtick | `         |
-               | Pipe     | \|        |
-               
                
 
 ## References
