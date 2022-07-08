@@ -12,7 +12,7 @@ cd data/simulation/springSimulation
 python generator_dataset_group.py --n-balls=10 --k=3 --b=0.05
 ```
 ### Pedestrian data sets
-We used five pedestrian data sets, namely *zara01*, *zara02*, *students03*, *ETH* and *Hotel*.
+We used five pedestrian data sets, namely *zara01*, *zara02*, *students03*, *ETH* and *Hotel*. The original data sets can be found at [OpenTraj](https://github.com/fatcatZF/OpenTraj). We used a time window of fifteen time steps to create training, validation and test examples, which can be found at the the folder data/pedestrian.
 
 ## Run experiments
 ### Spring simulation data sets
