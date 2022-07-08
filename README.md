@@ -22,7 +22,7 @@ python train_nri_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion 
 ```
 Arguments: ```--no-seed```: no specific seeds (use random seeds).
 
-           ```--encoder```, ```--use-motion```: types of encoder. 
+           ```--encoder```: types of encoder.
 
 ### Pedestrian data sets
 To train the models on the pedestrian data sets, run
