@@ -9,9 +9,10 @@ We used six spring simulation data sets and five pedestrian data sets in our exp
 We extended the spring simulation data sets of NRI [[1]](#1) by defining groups of the particles. To generate the spring simulation data sets, you can run:
 ```
 cd data/simulation/springSimulation
-python 
+python generator_dataset_group.py --n-balls=10 --k=3 --b=0.05
 ```
 ### Pedestrian data sets
+We used five pedestrian data sets, namely zara01, zara02, students03, ETH and Hotel
 
 ## Run experiments
 ### Spring simulation data sets
