@@ -75,9 +75,11 @@ We provided trained models on the spring simulation data sets and the pedestrian
 
 ## Baselines
 Except the original NRI [[1]](#1), we compared our method WavenetNRI with the following Baselines:
-- Yamaguchi et al [[5]](#5)
-- Solera et al [[3]](#3)
-- GD-GAN [[4]](#4)
+- Yamaguchi et al [[5]](#5): a linear SVM classifying the binary group relationships.
+- Solera et al [[3]](#3): a structured SVM (SSVM) predicting the clusters denoting groups.
+- GD-GAN [[4]](#4): a LSTM-based generator predicting the future trajectories of agents. The DBSCAN algorithm is applied to the hidden states to find the groups.
+
+The code implementing these baselines can be found in the folder baselines.
 
 ## References
 <a id="1">[1]</a>
