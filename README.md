@@ -65,7 +65,7 @@ python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motio
 **Arguments:** ```--suffix```: name of pedestrian data sets (*zara01*, *zara02*, *students03*, *ETH*, *Hotel*).<br>
                ```--split```: type of training, validation and test splits (split00, split01, split10, split11, split20, split21).<br>
                ```--group-weight```, ```--ng-weight```: weights of the weighted cross-entropy loss.<br>
-  
+### Trained Models  
 
 
 ## References
