@@ -32,7 +32,7 @@ The format is the generated data sets is `[num_sims, num_timesteps, num_dims, nu
 We used five pedestrian data sets, namely *zara01*, *zara02*, *students03*, *ETH* and *Hotel*. The original data sets can be found at [OpenTraj](https://github.com/fatcatZF/OpenTraj). We used a time window of fifteen time steps to create training, validation and test examples, which can be found at the the folder data/pedestrian. The data form is `[num_atoms, num_timesteps, num_dims]` for each example. 
 
 ## Evaluation Metric
-We use Group Mitre, proposed by  to evaluate the performances of the models. 
+We use Group Mitre, proposed by Solera et al [[3]](#3), to evaluate the performances of the models. 
 
 ## Run experiments
 ### Spring simulation data sets
