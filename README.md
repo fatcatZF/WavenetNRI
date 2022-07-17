@@ -82,6 +82,7 @@ Except the original NRI [[1]](#1), we compared our method WavenetNRI with the fo
 The code implementing these baselines can be found in the folder baselines.
 
 ## Results
+We use Excel to analyze our results. The results are listed in the Excel workbooks in the results folder. 
 ### Ablation Study
 ### WavenetNRI vs Baselines
 ### Assumption of Unsupervised Training
