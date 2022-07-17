@@ -73,6 +73,12 @@ python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motio
 ### Trained Models  
 We provided trained models on the spring simulation data sets and the pedestrian datasets in the folder trainedModels.
 
+## Baselines
+Except the original NRI [[1]](#1), we compared our method WavenetNRI with the following Baselines:
+- Yamaguchi et al 
+- Solera et al
+- GD-GAN
+
 ## References
 <a id="1">[1]</a>
 Kipf, T., Fetaya, E., Wang, K. C., Welling, M., & Zemel, R. (2018, July). Neural relational inference for interacting systems. In International Conference on Machine Learning (pp. 2688-2697). PMLR.
@@ -82,3 +88,6 @@ Oord, A. V. D., Dieleman, S., Zen, H., Simonyan, K., Vinyals, O., Graves, A., ..
 
 <a id="3">[3]</a>
 Solera, F., Calderara, S., & Cucchiara, R. (2015). Socially constrained structural learning for groups detection in crowd. IEEE transactions on pattern analysis and machine intelligence, 38(5), 995-1008.
+
+<a id="4">[4]</a>
+Fernando, T., Denman, S., Sridharan, S., & Fookes, C. (2018, December). Gd-gan: Generative adversarial networks for trajectory prediction and group detection in crowds. In Asian conference on computer vision (pp. 314-330). Springer, Cham.
