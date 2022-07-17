@@ -12,6 +12,11 @@
 - torch==1.10.1
 - tslearn==0.5.2
 
+To install the libraries, you can run:
+```
+pip install requirements.txt
+```
+
 ## Data sets
 We used six spring simulation data sets and five pedestrian data sets in our experiments.
 ### Spring simulation data sets
