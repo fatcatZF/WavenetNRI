@@ -81,6 +81,11 @@ Except the original NRI [[1]](#1), we compared our method WavenetNRI with the fo
 
 The code implementing these baselines can be found in the folder baselines.
 
+## Results
+### Ablation Study
+### WavenetNRI vs Baselines
+### Assumption of Unsupervised Training
+
 ## References
 <a id="1">[1]</a>
 Kipf, T., Fetaya, E., Wang, K. C., Welling, M., & Zemel, R. (2018, July). Neural relational inference for interacting systems. In International Conference on Machine Learning (pp. 2688-2697). PMLR.
