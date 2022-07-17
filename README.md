@@ -75,9 +75,9 @@ We provided trained models on the spring simulation data sets and the pedestrian
 
 ## Baselines
 Except the original NRI [[1]](#1), we compared our method WavenetNRI with the following Baselines:
-- Yamaguchi et al 
-- Solera et al
-- GD-GAN
+- Yamaguchi et al [[5]](#5)
+- Solera et al [[3]](#3)
+- GD-GAN [[4]](#4)
 
 ## References
 <a id="1">[1]</a>
@@ -91,3 +91,6 @@ Solera, F., Calderara, S., & Cucchiara, R. (2015). Socially constrained structur
 
 <a id="4">[4]</a>
 Fernando, T., Denman, S., Sridharan, S., & Fookes, C. (2018, December). Gd-gan: Generative adversarial networks for trajectory prediction and group detection in crowds. In Asian conference on computer vision (pp. 314-330). Springer, Cham.
+
+<a id="5">[5]</a>
+Yamaguchi, K., Berg, A. C., Ortiz, L. E., & Berg, T. L. (2011, June). Who are you with and where are you going?. In CVPR 2011 (pp. 1345-1352). IEEE.
