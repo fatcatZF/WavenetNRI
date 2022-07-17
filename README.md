@@ -31,6 +31,9 @@ The format is the generated data sets is `[num_sims, num_timesteps, num_dims, nu
 ### Pedestrian data sets
 We used five pedestrian data sets, namely *zara01*, *zara02*, *students03*, *ETH* and *Hotel*. The original data sets can be found at [OpenTraj](https://github.com/fatcatZF/OpenTraj). We used a time window of fifteen time steps to create training, validation and test examples, which can be found at the the folder data/pedestrian. The data form is `[num_atoms, num_timesteps, num_dims]` for each example. 
 
+## Evaluation Metric
+We use Group Mitre, proposed by  to evaluate the performances of the models. 
+
 ## Run experiments
 ### Spring simulation data sets
 To train the models on the spring simulation data sets, run
@@ -76,3 +79,6 @@ Kipf, T., Fetaya, E., Wang, K. C., Welling, M., & Zemel, R. (2018, July). Neural
 
 <a id="2">[2]</a>
 Oord, A. V. D., Dieleman, S., Zen, H., Simonyan, K., Vinyals, O., Graves, A., ... & Kavukcuoglu, K. (2016). Wavenet: A generative model for raw audio. arXiv preprint arXiv:1609.03499.
+
+<a id="3">[3]</a>
+Solera, F., Calderara, S., & Cucchiara, R. (2015). Socially constrained structural learning for groups detection in crowd. IEEE transactions on pattern analysis and machine intelligence, 38(5), 995-1008.
