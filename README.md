@@ -66,7 +66,7 @@ python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motio
                ```--split```: type of training, validation and test splits (split00, split01, split10, split11, split20, split21).<br>
                ```--group-weight```, ```--ng-weight```: weights of the weighted cross-entropy loss.<br>
 ### Trained Models  
-We saved some trained models in the folder 
+We provided trained models on the spring simulation data sets and the pedestrian datasets in the folder trainedModels.
 
 ## References
 <a id="1">[1]</a>
