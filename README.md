@@ -25,8 +25,8 @@ We extended the spring simulation data sets of NRI [[1]](#1) by defining groups 
 cd data/simulation/springSimulation
 python generator_dataset_group.py --n-balls=10 --k=3 --b=0.05
 ```
-The `k` in the above command corresponds to `a` in the thesis.
-The format is the generated data sets is `[num_sims, num_timesteps, num_dims, num_atoms]`. We transform the data form into `[num_sims, num_atoms, num_timesteps, num_dims]` before feeding the data sets into the model. The code to transform the data form is listed in `data_utils.py`.
+The **k** in the above command corresponds to **a** in the thesis.
+The format is the generated data sets is **[num_sims, num_timesteps, num_dims, num_atoms]**. We transform the data form into **[num_sims, num_atoms, num_timesteps, num_dims]** before feeding the data sets into the model. The code to transform the data form is listed in **data_utils.py**.
 
 ### Pedestrian data sets
 We used five pedestrian data sets, namely *zara01*, *zara02*, *students03*, *ETH* and *Hotel*. The original data sets can be found at [OpenTraj](https://github.com/fatcatZF/OpenTraj). We used a time window of fifteen time steps to create training, validation and test examples, which can be found at the the folder data/pedestrian. The data form is `[num_atoms, num_timesteps, num_dims]` for each example. 
