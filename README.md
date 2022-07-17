@@ -79,10 +79,10 @@ Except the original NRI [[1]](#1), we compared our method WavenetNRI with the fo
 - Solera et al [[3]](#3): a structured SVM (SSVM) predicting the clusters denoting groups.
 - GD-GAN [[4]](#4): a LSTM-based generator predicting the future trajectories of agents. The DBSCAN algorithm is applied to the hidden states to find the groups.
 
-The code implementing these baselines can be found in the folder baselines.
+The code implementing these baselines can be found in the folder **baselines**.
 
 ## Results
-We use Excel to analyze our results. The results are listed in the Excel workbooks in the results folder. 
+We use Excel to analyze our results. The results are listed in the Excel workbooks in the **results** folder. 
 ### Ablation Study
 We verify the effects of our changes to the original NRI by the ablation study. The recall and precision of the experiments based on group mitre are listed in the workbook `ablationResults_new.xlsx`. The rankings are listed in the workbook `rankAblation.xlsx`. We visualise the average rankings with CD diagrams (corresponding to Figure 5.3 and Figure 5.4 in the thesis). The code to plot the CD diagrams is in the file `Rank Evaluation (new).ipynb`.
 ### WavenetNRI vs Baselines
