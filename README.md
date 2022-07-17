@@ -84,9 +84,13 @@ The code implementing these baselines can be found in the folder **baselines**.
 ## Results
 We use Excel to analyze our results. The results are listed in the Excel workbooks in the **results** folder. 
 ### Ablation Study
-We verify the effects of our changes to the original NRI by the ablation study. The recall and precision of the experiments based on group mitre are listed in the workbook `ablationResults_new.xlsx`. The rankings are listed in the workbook `rankAblation.xlsx`. We visualise the average rankings with CD diagrams (corresponding to Figure 5.3 and Figure 5.4 in the thesis). The code to plot the CD diagrams is in the file `Rank Evaluation (new).ipynb`.
+We verify the effects of our changes to the original NRI by the ablation study. The recall and precision based on Group Mitre of the experiments are listed in the workbook **ablationResults_new.xlsx**. The rankings are listed in the workbook **rankAblation.xlsx**. We visualise the average rankings with CD diagrams (corresponding to Figure 5.3 and Figure 5.4 in the thesis). The code to plot the CD diagrams is in the file **Rank Evaluation (new).ipynb**.
 ### WavenetNRI vs Baselines
+We compare WavenetNRI with other baselines. The recall and precision of the experiments are listed in the workbook **experimentsResults_new.xlsx**. The rankings are listed in the workbook **rankExperiments.xlsx**. We visualise the average rankings with CD diagrams (corresponing to Figure 5.5 and Figure 5.6 in the thesis). The code to plot the CD diagrams is in the file **Rank Evaluation (new).ipynb**.
+### Confusion Matrices
+We compute the true negative rate (tn), false positive rate (fp), false negative rate (fn) and true positive rate (tp) of the pairwise classification-based methods and visualise them with confusion matrices (corresponding to Figure 7.3 to Figure 7.6 in the thesis). The results are listed in the workbook **confusionMatrices_new.xlsx**. The code to compute the four measurements and plot confusion matrices can be found in **Confusion Matrix.ipynb**.
 ### Assumption of Unsupervised Training
+To validate the assumption of unsupervised training, we plot the edge acuracy and mse of NRI and WavenetNRI during unsupervised training (Figure 7.7 to 7.10 in the thesis). The code to plot the edge acuracy and mse can be found in **Unsupervised Assumption.ipynb**.
 
 ## References
 <a id="1">[1]</a>
