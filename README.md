@@ -49,23 +49,23 @@ python train_nri_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion 
 ### Pedestrian data sets
 To train the models on *zara01*, run
 ```
-python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=zara01 --split=split00 --group-weight=2.45 --ng-weight=0.63 
+python train_nri_pede_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=zara01 --split=split00 --group-weight=2.45 --ng-weight=0.63 
 ```
 To train the models on *zara02*, run
 ```
-python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=zara02 --split=split00 --group-weight=5.74 --ng-weight=0.55
+python train_nri_pede_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=zara02 --split=split00 --group-weight=5.74 --ng-weight=0.55
 ```
 To train the models on *students03*, run
 ```
-python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=students03 --split=split00 --group-weight=11.90 --ng-weight=0.52
+python train_nri_pede_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=students03 --split=split00 --group-weight=11.90 --ng-weight=0.52
 ```
 To train the models on *ETH*, run
 ```
-python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=ETH --split=split00 --group-weight=2.99 --ng-weight=0.60
+python train_nri_pede_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=ETH --split=split00 --group-weight=2.99 --ng-weight=0.60
 ```
 To train the models on *Hotel*, run
 ```
-python train_nri_pede_su --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=Hotel --split=split00 --group-weight=5.68 --ng-weight=0.55
+python train_nri_pede_su.py --no-seed --epochs=200 --encoder=wavenetsym --use-motion --suffix=Hotel --split=split00 --group-weight=5.68 --ng-weight=0.55
 ```
 **Arguments:** ```--suffix```: name of pedestrian data sets (*zara01*, *zara02*, *students03*, *ETH*, *Hotel*).<br>
                ```--split```: type of training, validation and test splits (split00, split01, split10, split11, split20, split21).<br>
